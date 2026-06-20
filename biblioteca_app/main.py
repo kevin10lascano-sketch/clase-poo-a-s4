@@ -20,12 +20,18 @@ usuario1 = Usuario(
     "carlos@correo.com"
 )
 
+usuario2 = Usuario(
+    "Kevin Lascano",
+    "kevin@correo.com"
+)
+
 biblioteca = Biblioteca()
 
 biblioteca.agregar_libro(libro1)
 biblioteca.agregar_libro(libro2)
 
 biblioteca.agregar_usuario(usuario1)
+biblioteca.agregar_usuario(usuario2)    
 
 print("=== LIBROS REGISTRADOS ===")
 biblioteca.mostrar_libros()
